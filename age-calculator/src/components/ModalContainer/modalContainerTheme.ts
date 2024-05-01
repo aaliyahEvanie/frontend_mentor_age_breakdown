@@ -4,20 +4,6 @@ export const helpers = createMultiStyleConfigHelpers([
     'container', 'inputWrapper', 'dividerWrapper', 'answerWrapper', 'answerValue'
 ])
 
-
-/*
-const breakpoints = {
-  base: '0em', // 0px
-  sm: '30em', // ~480px. em is a relative unit and is dependant on the font size.
-  md: '48em', // ~768px
-  lg: '62em', // ~992px
-  xl: '80em', // ~1280px
-  '2xl': '96em', // ~1536px
-  360×800,
-1440×900      (6.41%)
-1280×720       (5.45%)
-1280×1024    (4.52%)
-} */
 export const ModalContainerTheme = helpers.defineMultiStyleConfig({
     baseStyle:{
         container: {

@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.js": "/frontend_mentor_age_breakdown/static/js/main.97435edc.js",
+    "main.css": "/frontend_mentor_age_breakdown/static/css/main.54d0b1b4.css",
+    "main.js": "/frontend_mentor_age_breakdown/static/js/main.9a61c7ef.js",
     "index.html": "/frontend_mentor_age_breakdown/index.html",
     "static/media/icon-arrow.svg": "/frontend_mentor_age_breakdown/static/media/icon-arrow.76e952b1b427b84b83bd01f2f4822499.svg",
-    "main.97435edc.js.map": "/frontend_mentor_age_breakdown/static/js/main.97435edc.js.map"
+    "main.54d0b1b4.css.map": "/frontend_mentor_age_breakdown/static/css/main.54d0b1b4.css.map",
+    "main.9a61c7ef.js.map": "/frontend_mentor_age_breakdown/static/js/main.9a61c7ef.js.map"
   },
   "entrypoints": [
-    "static/js/main.97435edc.js"
+    "static/css/main.54d0b1b4.css",
+    "static/js/main.9a61c7ef.js"
   ]
 }

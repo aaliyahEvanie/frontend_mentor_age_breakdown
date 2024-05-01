@@ -57,7 +57,7 @@ export const DateCollectorFormTheme = helper.defineMultiStyleConfig({
         answerWrapper: {
             '> div': {
                 display: 'flex',
-                fontFamily: 'extraBoldItalic'
+                fontFamily: `'Poppins-ExtraBold-Italic'`
             }
         },
     }

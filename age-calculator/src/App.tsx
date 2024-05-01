@@ -3,7 +3,6 @@ import { DateCollectorForm } from './components/form/DateCollectorForm';
 import { CalculationFormStateProvider } from './api/CalculationFormStateProvider';
 import { Box, ChakraProvider } from '@chakra-ui/react';
 import { mainTheme } from './themes/mainTheme';
-import { Fonts } from './fonts/fonts';
 import { LoadingComponent } from './components/loadingComponent/LoadingComponet';
 
 function App() {
@@ -17,12 +16,14 @@ function App() {
 
       return () => clearTimeout(timeoutId)
   }, [])
+
+
+
     return (
       <ChakraProvider theme={mainTheme}>
         {
           isLoading ? <LoadingComponent/> : 
           <Box className="App">
-            <Fonts/>
               <header className="App-header">
                 <CalculationFormStateProvider>
                   <DateCollectorForm/>

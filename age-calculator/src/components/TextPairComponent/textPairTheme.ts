@@ -10,7 +10,7 @@ export const TextPairComponentTheme = helper.defineMultiStyleConfig({
         answerValue: {
             color: 'brand.primary.purple',
             mx: '1rem',
-            fontFamily: 'extraBoldItalic',
+            fontFamily: `'Poppins-ExtraBold-Italic'`,
             fontSize: {base:'3rem', sm:'4rem'}
         },
         

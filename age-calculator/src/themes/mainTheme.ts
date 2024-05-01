@@ -9,21 +9,28 @@ import { ButtonTheme } from "./buttonTheme"
 import { LoadingComponentTheme } from "../components/loadingComponent/loadingComponentTheme"
 import { SpinnerTheme } from "./spinnerTheme"
 
+const fonts = {    
+    popExtraBold: `'Poppins-ExtraBold', sans-serif`,
+    popBold: `'Poppins-Bold', sans-serif`,
+    popRegular: `'Poppins-Regular', sans-serif`,
+    popExtraBoldItalic: `'Poppins-ExtraBold-Italic', sans-serif`,
+    popItalic: `'Poppins-Italic', sans-serif` 
+}
+
 export const mainTheme = extendTheme({
     styles:{
         global:{
             body:{
-                background: 'brand.neutral.lightGrey'
+                background: 'brand.neutral.lightGrey',
+                fontFamily: `'Poppins-Regular'`
+            },
+            h1: {
+                fontFamily: `'Poppins-ExtraBold-Italic'`
             }
         }
     },
     fonts: {
-        body: `Poppins-ExtraBold`,
-        bold: `Poppins-Bold`,
-        regular: `Poppins-Regular`,
-        extraBold: `Poppins-ExtraBold`,
-        extraBoldItalic: `Poppins-ExtraBold-Italic`,
-        italic: `Poppins-Italic`
+        fonts
     },
     colors:{
         brand: {
